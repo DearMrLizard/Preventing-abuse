@@ -13,4 +13,14 @@ After this step and typing (exit), the firewall will be activated, so be careful
 همچنین پورت 80 و http  رو هم باز بذارید 
 باقی پورت های باید پورت های مورد استفاده شما باشد
 بعد از این مرحله و تایپ کردن (exit) فایروال فعال خواهد شد پس دقت لازم را به عمل آورید!
-برای کپی کردن این دستور به صورت خودکار، روی [این لینک](javascript:copyToClipboard('curl -O https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh')) کلیک کنید.
+<script>
+function copyToClipboard(text) {
+  var tempInput = document.createElement("input");
+  tempInput.value = text;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+  alert("لینک کپی شد: " + text);
+}
+</script>
