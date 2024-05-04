@@ -1,4 +1,3 @@
-# Displaying "MrLizard" and applying iptables rules
 echo "  __  ___     __    _                      __  
  /  |/  /____/ /   (_)___  ____ __________/ /  
 / /|_/ / ___/ /   / /_  / / __  / ___/ __  /   
