@@ -13,8 +13,34 @@ After this step and typing (exit), the firewall will be activated, so be careful
 همچنین پورت 80 و http  رو هم باز بذارید 
 باقی پورت های باید پورت های مورد استفاده شما باشد
 بعد از این مرحله و تایپ کردن (exit) فایروال فعال خواهد شد پس دقت لازم را به عمل آورید!
-#Download Script
+<button onclick="copyToClipboard()">curl</button>
 
-To access the "Preventing abuse" script, click on the link below:
+<script>
+function copyToClipboard() {
+  var link = "curl -O https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh";
+  var tempInput = document.createElement("input");
+  tempInput.value = link;
+  document.body.appendChild(tempInput);
+  tempInput.select();
+  document.execCommand("copy");
+  document.body.removeChild(tempInput);
+  alert("لینک کپی شد: " + link);
+}
+</script>
 
-[Download Script](https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh)
+<br>
+<button onclick="downloadWithCurl()">دانلود با Curl</button>
+
+<script>
+function downloadWithCurl() {
+  var link = "https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh";
+  window.location.href = "data:text/plain;charset=utf-8," + encodeURIComponent("curl -O " + link);
+}
+</script>
+
+<br>
+<button onclick="downloadWithWget()">دانلود با Wget</button>
+
+<script>
+function downloadWithWget() {
+  var link = "https://raw.githubusercontent.com/DearMrLizard/Pre
