@@ -12,4 +12,9 @@ After this step and typing (exit), the firewall will be activated, so be careful
 حتما پورت اتصال به سرور (اس اس اچ) رو باز بذارید که اغلب پورت 22 میباشد 
 همچنین پورت 80 و http  رو هم باز بذارید 
 باقی پورت های باید پورت های مورد استفاده شما باشد
-بعد از این مرحله و تایپ کردن (exit) فایروال فعال خواهد شد پس دقت لازم را به عمل آورید! 
+بعد از این مرحله و تایپ کردن (exit) فایروال فعال خواهد شد پس دقت لازم را به عمل آورید!
+#Download Script
+
+To access the "Preventing abuse" script, click on the link below:
+
+[Download Script](https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh)
