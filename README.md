@@ -13,5 +13,7 @@ After this step and typing (exit), the firewall will be activated, so be careful
 همچنین پورت 80 و http  رو هم باز بذارید 
 باقی پورت های باید پورت های مورد استفاده شما باشد
 بعد از این مرحله و تایپ کردن (exit) فایروال فعال خواهد شد پس دقت لازم را به عمل آورید!
+
 curl -O https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh
+
 wget https://raw.githubusercontent.com/DearMrLizard/Preventing-abuse/main/Preventing%20abuse.sh
